@@ -5,7 +5,7 @@ def second_largest(arr : list)-> int:
         if i > largest:
             second_largest = largest
             largest = i
-        elif i >second_largest and i< largest:
+        elif i > second_largest and i < largest:
             second_largest = i
     return second_largest
 
